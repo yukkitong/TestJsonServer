@@ -1,4 +1,4 @@
-# Json Server for MOCK
+# REST API for MOCK
 
 ## How to Use
 
