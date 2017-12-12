@@ -3,14 +3,14 @@
 ## How to Use
 
 * Windows Cmd or PowerShell
-```cmd
+```bat
 C:/> npm install -g json-server
 [...]
 C:/> json-server --watch db.json
 ```
 
 * Linux or Mac OSX
-```shell
+```bash
 $ npm install -g json-server
 [...]
 $ ./start.sh
