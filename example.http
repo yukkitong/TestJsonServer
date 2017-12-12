@@ -30,6 +30,9 @@ GET  http://localhost:3000/boards/1/contents
 ###
 GET  http://localhost:3000/boards/1/contents?_embed=comments
 
+###
+GET  http://localhost:3000/boards?name=Inquiry
+
 
 
 

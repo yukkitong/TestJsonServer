@@ -129,4 +129,33 @@ $ json-server --watch db.json
    ]
    ```
 
+## 챗팅
+> 본 내용은 **REST API** 중 `챗팅`에 대한 내용입니다.
+
+1. 챗팅룸 목록 조회
+
+   | METHOD  | PATH    |
+   | ------- |:------- |
+   | GET     | rooms   |
+
+   [REQ]
+   ```http
+   GET  http://{host}:{port}/rooms
+   ```
+   [RES]
+   ```json
+   [
+     {
+       "id": 1,
+       "name": "Secret1",
+       "created": 1214340983204
+     },
+     {
+       "id": 2,
+       "name": "Public1",
+       "created": 1214340983204
+     }
+   ]
+   ```
+
 > 내용은 계속 추가됩니다.
