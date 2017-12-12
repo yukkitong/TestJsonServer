@@ -1,0 +1,13 @@
+GET http://localhost:3333/posts
+
+###
+GET http://localhost:3333/posts/1
+
+###
+GET http://localhost:3333/comments?author.name=typicode
+
+###
+GET http://localhost:3333/posts?title=json-server&author=typicode
+
+###
+GET http://localhost:3333/posts/1/comments

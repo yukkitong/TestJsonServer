@@ -1,0 +1,46 @@
+### 특정 사용자 조회 by ID
+GET http://localhost:3000/users/abcdf12dd343dcf432
+
+### 사용자 조회 목록 구성
+GET http://localhost:3000/users?id=defcb452dae4dcff43&id=abcdf12dd343dcf432
+
+### 특정 사용자의 팔로워 목록 조회 by ID
+GET http://localhost:3000/users/ddf452323aea4cdff4/followers
+
+### 특정 사용자의 정보 및 팔로워 목록 조회 by ID (embed)
+GET http://localhost:3000/users/ddf452323aea4cdff4?_embed=followers
+
+### 특정 사용자의 차단 목록 조회
+GET http://localhost:3000/users/ddf452323aea4cdff4/black_list?_page=1&_limit=10
+
+### 특정 사용자의 정보 및 차단 목록 조회 by ID (embed)
+GET http://localhost:3000/users/ddf452323aea4cdff4?_embed=black_list
+
+
+
+
+
+### 게시판
+###
+GET  http://localhost:3000/boards
+###
+GET  http://localhost:3000/boards/1
+###
+GET  http://localhost:3000/boards/1/contents
+###
+GET  http://localhost:3000/boards/1/contents?_embed=comments
+
+
+
+
+
+### 챗팅
+###
+GET  http://localhost:3000/rooms
+###
+GET  http://localhost:3000/rooms/2
+###
+GET  http://localhost:3000/rooms/1/messages?_sort=send_date&_order=asc
+###
+GET  http://localhost:3000/rooms?name=Secret1&_embed=messages
+

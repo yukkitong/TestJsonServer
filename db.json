@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "abcdf12dd343dcf432",
+      "name": "Jason",
+      "email": "jason98.bae@gmail.com",
+      "gender": "male",
+      "rank": 1
+    },
+    {
+      "id": "defcb452dae4dcff43",
+      "name": "James",
+      "email": "james1980@gmail.com",
+      "gender": "male",
+      "rank": 2
+    },
+    {
+      "id": "ddf452323aea4cdff4",
+      "name": "Jane",
+      "email": "awsome_jane@gmail.com",
+      "gender": "male",
+      "rank": 2
+    }
+  ],
+
+  "followers": [
+    {
+      "id": 1,
+      "followerId": "defcb452dae4dcff43",
+      "userId": "ddf452323aea4cdff4"
+    },
+    {
+      "id": 2,
+      "followerId": "abcdf12dd343dcf432",
+      "userId": "ddf452323aea4cdff4"
+    }
+  ],
+
+  "black_list": [
+    {
+      "id": 1,
+      "blackId": "abcdf12dd343dcf432",
+      "userId": "ddf452323aea4cdff4"
+    },
+    {
+      "id": 2,
+      "blackId": "defcb452dae4dcff43",
+      "userId": "ddf452323aea4cdff4"
+    }
+  ],
+
+  "boards": [
+    {
+      "id": 1,
+      "name": "Inquiry",
+      "status": "enable"
+    },
+    {
+      "id": 2,
+      "name": "Notice",
+      "status": "enable"
+    }
+  ],
+
+  "contents": [
+    {
+      "id": 1,
+      "author": "",
+      "title": "문의1",
+      "content": "문의가있습니다.",
+      "tag": "기타",
+      "created": 1214340983204,
+      "updated": 1214340983204,
+      "boardId": 1
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 1,
+      "author": "",
+      "comment": "안녕하세요. 반갑습니다.",
+      "created": 1214340983204,
+      "updated": 1214340983204,
+      "contentId": 1
+    }
+  ],
+
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Secret1",
+      "created": 1214340983204
+    },
+    {
+      "id": 2,
+      "name": "Public1",
+      "created": 1214340983204
+    }
+  ],
+
+  "messages": [
+    {
+      "id": 1,
+      "from": "abcdf12dd343dcf432",
+      "to": "ddf452323aea4cdff4",
+      "msg": "Hello~~",
+      "send_date": 121398798343,
+      "roomId": 1
+    },
+    {
+      "id": 2,
+      "from": "ddf452323aea4cdff4",
+      "to": "abcdf12dd343dcf432",
+      "msg": "Hi~~",
+      "send_date": 121398900000,
+      "roomId": 1
+    }
+  ]
+}
