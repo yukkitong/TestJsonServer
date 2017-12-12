@@ -1,6 +1,11 @@
 # REST API for MOCK
 
-## How to Use
+# Table of Contents
+1. [How to Use](#How-to-Use)
+2. [게시판](#게시판)
+3. [챗팅](#챗팅)
+
+## How-to-Use
 
 * Windows Cmd or PowerShell
 ```bat
