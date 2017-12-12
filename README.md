@@ -1,7 +1,9 @@
 # Json Server for MOCK
 
 ## 게시판
+
 - 게시판 목록 및 내용 조회
+
   | METHOD  | PATH    |
   | ------- |:------- |
   | GET     | boards  |
@@ -25,7 +27,9 @@
     }
   ]
   ```
+
 - 특정 게시판 내용 조회
+
   | METHOD  | PATH        | 
   | ------- |:----------- |
   | GET     | boards/{id} |
@@ -42,10 +46,13 @@
     "status": "enable"
   }
   ```
+
 - 특정 게시판 게시물 조회
+
   | METHOD  | PATH                 | 
   | ------- |:-------------------- |
   | GET     | boards/{id}/contents |
+
   [REQ]
   ```http
   GET http://{host}:{port}/boards/1/contents
@@ -65,10 +72,13 @@
     }
   ]
   ```
+
 - 특정 게시판 게시물 및 코멘트 조회
+
   | METHOD  | PATH                 | PARAMETERS      |
   | ------- |:-------------------- |:--------------- |
   | GET     | boards/{id}/contents | _embed=comments |
+
   [REQ]
   ```http
   GET  http://{host}:{port}/boards/1/contents?_embed=comments
